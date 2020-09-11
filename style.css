@@ -160,6 +160,16 @@ mix-blend-mode: overlay;
     width: 80%;
 }
 section{
+    height: 100vh;
+    right:0;
+    width: 100%;
+    display: flex;
+    padding: 100px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #111;
+    transition: .5s;
+    position: absolute;
     background:url('https://images.pexels.com/photos/3562117/pexels-photo-3562117.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
     background-repeat: no-repeat;
     background-size: cover;
@@ -187,5 +197,20 @@ section{
         letter-spacing: 2;
         font-weight: 500;
     }
-    
+    section{
+    height: 100vh;
+    right:0;
+    width: 100%;
+    display: flex;
+    padding: 100px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #111;
+    transition: .5s;
+    position: absolute;
+    background:url('https://images.pexels.com/photos/3562117/pexels-photo-3562117.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 }
