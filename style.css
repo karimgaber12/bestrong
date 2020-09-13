@@ -135,6 +135,8 @@ mix-blend-mode: overlay;
 .toggle.active{
     background: url('close.png');
     background-repeat: no-repeat;
+    width:40px;
+    height:40px;
     background-size: 25px;
     background-position: center;
     cursor: pointer;
