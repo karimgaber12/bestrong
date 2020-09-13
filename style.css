@@ -141,6 +141,7 @@ mix-blend-mode: overlay;
     background-position: center;
     cursor: pointer;
     transition: .3s;
+    color:#fff;
 }
 
 @media(max-width:991px){
