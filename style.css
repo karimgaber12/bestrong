@@ -15,9 +15,6 @@ section{
     background-color: #111;
     transition: .5s;
     position: absolute;
-    background:url('https://images.pexels.com/photos/3562117/pexels-photo-3562117.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .banner.active{
     right:300px;
@@ -159,21 +156,6 @@ mix-blend-mode: overlay;
     font-size: 20px;
     width: 80%;
 }
-section{
-    height: 100vh;
-    right:0;
-    width: 100%;
-    display: flex;
-    padding: 100px;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #111;
-    transition: .5s;
-    position: absolute;
-    background:url('https://images.pexels.com/photos/3562117/pexels-photo-3562117.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
     
 }
 @media(max-width:600px){
@@ -182,7 +164,7 @@ section{
     }
 
     .text h1{
-        font-size: 3em;
+        font-size: 2em;
     }
     .text h2{
         font-size: 1em;
@@ -197,20 +179,4 @@ section{
         letter-spacing: 2;
         font-weight: 500;
     }
-    section{
-    height: 100vh;
-    right:0;
-    width: 100%;
-    display: flex;
-    padding: 100px;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #111;
-    transition: .5s;
-    position: absolute;
-    background:url('https://images.pexels.com/photos/3562117/pexels-photo-3562117.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 }
